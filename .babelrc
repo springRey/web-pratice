@@ -1,0 +1,14 @@
+{
+  // "presets": [["es2015", { "modules": false }]],
+  "presets": [["@babel/preset-env", { "modules": false }]],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "vant",
+        "libraryDirectory": "es",
+        "style": true
+      }
+    ]
+  ]
+}
